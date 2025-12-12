@@ -77,25 +77,15 @@ cd wisdom-pack
 | Unclear thinking | `/wisdom-clarify` |
 | Not sure which framework | `/wisdom-ground` |
 
-## Book Collection Integration (Optional)
-
-If you have a ChromaDB book collection indexed with `book-indexer`, commands will search for relevant quotes:
-
-```bash
-book-indexer search "dichotomy of control" --collection calibre-books --limit 3
-```
-
-**Without ChromaDB:** Commands include fallback quotes from the core texts, so they work standalone.
-
 ## Sources
 
-Commands draw from these indexed texts when available:
+Each command draws from primary philosophical sources:
 
-- **Stoicism:** How to Be a Stoic (Pigliucci), Philosophy 101
-- **Cognitive Science:** Thinking, Fast and Slow (Kahneman), Blink (Gladwell)
-- **Mindfulness:** Mindfulness and the Big Questions (Irvine)
-- **Strategic:** The Book of Five Rings (Musashi)
-- **Philosophy:** Think (Blackburn), Astonish Yourself (Droit), Alan Watts
+- **Stoicism:** Epictetus, Marcus Aurelius, Seneca
+- **Cognitive Science:** Daniel Kahneman, Amos Tversky
+- **Mindfulness:** Thich Nhat Hanh, Viktor Frankl
+- **Strategic:** Miyamoto Musashi (Book of Five Rings)
+- **Socratic:** Socrates, Plato
 
 ## Related
 
