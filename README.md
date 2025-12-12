@@ -19,69 +19,51 @@ cd wisdom-pack
 
 ## Available Commands
 
-### Stoic Framework (`/wisdom:stoic:*`)
+### Phase 1 (Current)
 
 | Command | Purpose | Key Question |
 |---------|---------|--------------|
-| `/wisdom:stoic:dichotomy` | Separate what's in your control | "What here is up to me?" |
-| `/wisdom:stoic:premeditation` | Visualize worst case | "What if this fails completely?" |
-| `/wisdom:stoic:memento-mori` | Mortality perspective | "Would this matter on my deathbed?" |
-| `/wisdom:stoic:virtue` | Virtue ethics check | "Is this wise, just, courageous, temperate?" |
+| `/wisdom-stoic-dichotomy` | Separate what's in your control | "What here is up to me?" |
+| `/wisdom-cognitive-bias-scan` | Detect cognitive biases | "What biases might be operating?" |
+| `/wisdom-clarify` | Socratic questioning | "What do you really mean?" |
+| `/wisdom-ground` | Auto-select relevant framework | "Which tradition applies here?" |
 
-**Sources:** Epictetus, Marcus Aurelius, Massimo Pigliucci
+### Phase 2 (Planned)
 
-### Cognitive Framework (`/wisdom:cognitive:*`)
+**Stoic:**
+- `/wisdom-stoic-premeditation` - Visualize worst case
+- `/wisdom-stoic-memento-mori` - Mortality perspective
+- `/wisdom-stoic-virtue` - Virtue ethics check
 
-| Command | Purpose | Key Question |
-|---------|---------|--------------|
-| `/wisdom:cognitive:system-check` | Identify fast vs slow thinking | "Am I reacting or reasoning?" |
-| `/wisdom:cognitive:bias-scan` | Detect cognitive biases | "What biases might be operating?" |
-| `/wisdom:cognitive:heuristics` | Identify mental shortcuts | "What rules of thumb am I using?" |
+**Mindfulness:**
+- `/wisdom-mindful-pause` - Create space before deciding
+- `/wisdom-mindful-attention` - Examine focus
+- `/wisdom-mindful-clarity` - Assess mental state
 
-**Sources:** Daniel Kahneman, Amos Tversky
+**Strategic:**
+- `/wisdom-strategic-timing` - Assess readiness for action
+- `/wisdom-strategic-stance` - Evaluate positioning
+- `/wisdom-strategic-five-rings` - Apply Musashi's principles
 
-### Mindfulness Framework (`/wisdom:mindful:*`)
+## Sources
 
-| Command | Purpose | Key Question |
-|---------|---------|--------------|
-| `/wisdom:mindful:pause` | Create space before deciding | "What do I notice right now?" |
-| `/wisdom:mindful:attention` | Examine focus | "Where is my attention going?" |
-| `/wisdom:mindful:clarity` | Assess mental state | "Is my thinking clear or cluttered?" |
+Commands draw from indexed philosophy texts when available:
 
-**Sources:** Sharon Salzberg, Mark Westmoquette
+**Stoicism:** Epictetus, Marcus Aurelius, Massimo Pigliucci
+**Cognitive Science:** Daniel Kahneman, Malcolm Gladwell
+**Mindfulness:** Thich Nhat Hanh, Sharon Salzberg, Ben Irvine
+**Strategic:** Miyamoto Musashi
+**Philosophy:** Simon Blackburn, Roger-Pol Droit, Alan Watts
 
-### Strategic Framework (`/wisdom:strategic:*`)
+## Book Collection Integration (Optional)
 
-| Command | Purpose | Key Question |
-|---------|---------|--------------|
-| `/wisdom:strategic:five-rings` | Apply Musashi's principles | "What would the master strategist do?" |
-| `/wisdom:strategic:timing` | Assess readiness | "Is this the right time?" |
-| `/wisdom:strategic:stance` | Evaluate positioning | "Where should I stand on this?" |
+If you have a ChromaDB book collection, commands can search for relevant quotes:
 
-**Sources:** Miyamoto Musashi
+```bash
+book-indexer search "dichotomy of control" --collection calibre-books --limit 3
+```
 
-### Meta Commands
-
-| Command | Purpose |
-|---------|---------|
-| `/wisdom:clarify` | Socratic questioning - define terms, examine assumptions |
-| `/wisdom:ground` | Ground any decision in relevant philosophical framework |
-
-## Skills
-
-- **philosophy-researcher** - Search book collection for relevant wisdom
-- **bias-detector** - Scan reasoning for cognitive biases
-- **stoic-advisor** - Apply Stoic philosophy to specific situations
-
-## Book Collection Integration
-
-Commands can pull quotes from an indexed book collection via ChromaDB:
-
-- How to Be a Stoic (Pigliucci)
-- Thinking, Fast and Slow (Kahneman)
-- The Mindful Universe (Westmoquette)
-- The Book of Five Rings (Musashi)
-- And more...
+**Without ChromaDB:** Commands include fallback quotes from the core texts, so they work standalone.
 
 ## Complementary to taches-cc-resources
 
@@ -91,22 +73,8 @@ This plugin complements (doesn't compete with) taches-cc-resources:
 |---------------------|-------------|
 | Abstract mental models | Philosophy-grounded frameworks |
 | Generic application | Tradition-specific wisdom |
-| `/consider:first-principles` | `/wisdom:stoic:dichotomy` with Epictetus quotes |
+| `/consider:first-principles` | `/wisdom-stoic-dichotomy` with Epictetus |
 | Framework-agnostic | Deep dives into specific traditions |
-
-## Configuration
-
-Optional settings in your Claude Code config:
-
-```json
-{
-  "wisdom-pack": {
-    "chromadb_host": "your-host:8000",
-    "chromadb_collection": "calibre-books",
-    "quote_density": "normal"
-  }
-}
-```
 
 ## License
 

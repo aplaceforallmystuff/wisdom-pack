@@ -81,6 +81,35 @@ Build a progression of questions that:
 After questioning, help synthesize what's been learned.
 </process>
 
+<book-wisdom>
+**If book-indexer is available**, search for supporting insights:
+```bash
+book-indexer search "[concept]" --collection calibre-books --limit 3
+```
+
+**Fallback quotes if book search unavailable:**
+
+On examination:
+> "The unexamined life is not worth living."
+> — Socrates
+
+On knowing:
+> "True wisdom comes to each of us when we realize how little we understand about life, ourselves, and the world around us."
+> — Socrates
+
+On questioning:
+> "I cannot teach anybody anything. I can only make them think."
+> — Socrates
+
+On assumptions:
+> "Wonder is the beginning of wisdom."
+> — Socrates
+
+On definitions:
+> "The beginning of wisdom is the definition of terms."
+> — Socrates
+</book-wisdom>
+
 <output-format>
 Structure your response as:
 
@@ -106,7 +135,7 @@ Structure your response as:
 [Identify the core tension or contradiction to examine]
 
 **From the Tradition:**
-> [Relevant philosophical quote on inquiry or examination]
+> [Relevant quote - use book search if available, fallback quotes otherwise]
 </output-format>
 
 <guidance>

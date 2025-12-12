@@ -76,15 +76,32 @@ Provide specific ways to engage deliberate thinking:
 </process>
 
 <book-wisdom>
-When relevant, search for supporting research:
+**If book-indexer is available**, search for supporting research:
 ```bash
-book-indexer search "[bias or concept]" --host opus.centaur-snapper.ts.net --collection calibre-books --limit 3
+book-indexer search "[bias or concept]" --collection calibre-books --limit 3
 ```
 
-Key sources:
-- "Thinking, Fast and Slow" by Daniel Kahneman
-- "Predicting the Unknown" by Stylianos Kampakis
-- "Influence" by Robert Cialdini
+**Fallback quotes if book search unavailable:**
+
+On System 1 vs System 2:
+> "A reliable way to make people believe in falsehoods is frequent repetition, because familiarity is not easily distinguished from truth."
+> — Daniel Kahneman, Thinking, Fast and Slow
+
+On overconfidence:
+> "The confidence people have in their beliefs is not a measure of the quality of evidence but of the coherence of the story the mind has managed to construct."
+> — Daniel Kahneman
+
+On loss aversion:
+> "Losses loom larger than gains. The response to losses is stronger than the response to corresponding gains."
+> — Kahneman & Tversky
+
+On the planning fallacy:
+> "The prevalent tendency to underweight or ignore distributional information is perhaps the major source of error in forecasting."
+> — Daniel Kahneman
+
+On confirmation bias:
+> "We are pattern-seeking story-telling animals, and we are quite adept at telling stories about patterns, whether they exist or not."
+> — Michael Shermer
 </book-wisdom>
 
 <output-format>
@@ -109,7 +126,7 @@ To think more clearly about this:
 - [Specific technique 2]
 
 **From the Research:**
-> [Relevant quote from Kahneman or cognitive science]
+> [Relevant quote - use book search if available, fallback quotes otherwise]
 </output-format>
 
 <key-questions>

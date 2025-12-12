@@ -56,14 +56,28 @@ Help identify actions they CAN take while accepting uncertainty about results.
 </process>
 
 <book-wisdom>
-When relevant, search the book collection for supporting quotes:
+**If book-indexer is available**, search for supporting quotes:
 ```bash
-book-indexer search "[relevant concept]" --host opus.centaur-snapper.ts.net --collection calibre-books --limit 3
+book-indexer search "[relevant concept]" --collection calibre-books --limit 3
 ```
 
-Key sources:
-- "How to Be a Stoic" by Massimo Pigliucci
-- "Philosophy 101" for broader context
+**Fallback quotes if book search unavailable:**
+
+On the dichotomy:
+> "Make the best use of what is in your power, and take the rest as it happens."
+> — Epictetus
+
+On attachment to outcomes:
+> "Never say of anything, 'I have lost it'; but, 'I have returned it.'"
+> — Epictetus, Enchiridion 11
+
+On focusing effort:
+> "You have power over your mind - not outside events. Realize this, and you will find strength."
+> — Marcus Aurelius, Meditations
+
+On preferred indifferents:
+> "It is not things that disturb us, but our judgments about things."
+> — Epictetus, Enchiridion 5
 </book-wisdom>
 
 <output-format>
@@ -85,7 +99,7 @@ Structure your response as:
 [Practical advice on where to direct energy]
 
 **From the Tradition:**
-> [Relevant quote from Epictetus, Marcus Aurelius, or modern Stoic source]
+> [Relevant quote - use book search if available, fallback quotes otherwise]
 </output-format>
 
 <key-questions>
