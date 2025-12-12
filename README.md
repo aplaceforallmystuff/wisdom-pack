@@ -97,17 +97,6 @@ Commands draw from these indexed texts when available:
 - **Strategic:** The Book of Five Rings (Musashi)
 - **Philosophy:** Think (Blackburn), Astonish Yourself (Droit), Alan Watts
 
-## Complementary to taches-cc-resources
-
-This plugin complements (doesn't compete with) taches-cc-resources:
-
-| taches-cc-resources | wisdom-pack |
-|---------------------|-------------|
-| Abstract mental models | Philosophy-grounded frameworks |
-| Generic application | Tradition-specific wisdom |
-| `/consider:first-principles` | `/wisdom-stoic-dichotomy` with Epictetus |
-| Framework-agnostic | Deep dives into specific traditions |
-
 ## Related
 
 - [mcp-wisdom](https://github.com/aplaceforallmystuff/mcp-wisdom) - MCP server version for Claude Desktop
