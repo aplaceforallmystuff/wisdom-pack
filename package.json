@@ -1,0 +1,24 @@
+{
+  "name": "wisdom-pack",
+  "version": "0.1.0",
+  "description": "Philosophy-grounded thinking frameworks for Claude Code",
+  "author": "Jim Christian",
+  "license": "MIT",
+  "homepage": "https://jimchristian.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aplaceforallmystuff/wisdom-pack"
+  },
+  "keywords": [
+    "claude-code",
+    "philosophy",
+    "stoicism",
+    "cognitive-bias",
+    "mindfulness",
+    "mental-models",
+    "thinking-frameworks"
+  ],
+  "scripts": {
+    "install": "./install.sh"
+  }
+}
