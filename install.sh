@@ -19,13 +19,17 @@ mkdir -p "$CLAUDE_DIR/skills"
 echo "  Installing commands..."
 cp -r "$SCRIPT_DIR/commands/wisdom/"* "$CLAUDE_DIR/commands/wisdom/"
 
-# Copy skills
-echo "  Installing skills..."
-for skill_dir in "$SCRIPT_DIR/skills/"*/; do
-    skill_name=$(basename "$skill_dir")
-    mkdir -p "$CLAUDE_DIR/skills/$skill_name"
-    cp -r "$skill_dir"* "$CLAUDE_DIR/skills/$skill_name/"
-done
+# Copy skills (if any)
+if [ -d "$SCRIPT_DIR/skills" ] && [ "$(ls -A "$SCRIPT_DIR/skills" 2>/dev/null)" ]; then
+    echo "  Installing skills..."
+    for skill_dir in "$SCRIPT_DIR/skills/"*/; do
+        if [ -d "$skill_dir" ]; then
+            skill_name=$(basename "$skill_dir")
+            mkdir -p "$CLAUDE_DIR/skills/$skill_name"
+            cp -r "$skill_dir"* "$CLAUDE_DIR/skills/$skill_name/"
+        fi
+    done
+fi
 
 # Copy agents (if any)
 if [ -d "$SCRIPT_DIR/agents" ] && [ "$(ls -A "$SCRIPT_DIR/agents" 2>/dev/null)" ]; then
