@@ -22,7 +22,6 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - Flattened command structure from nested directories to flat files
 - Changed command naming from `/wisdom:stoic:dichotomy` to `/wisdom-stoic-dichotomy`
-- Made ChromaDB integration optional with fallback quotes
 
 ## [0.1.0] - 2025-12-12
 
@@ -32,5 +31,4 @@ All notable changes to this project will be documented in this file.
 - `/wisdom-cognitive-bias-scan` - Kahneman-based bias detection
 - `/wisdom-clarify` - Socratic questioning method
 - `/wisdom-ground` - Meta command for framework selection
-- ChromaDB integration for book collection quotes
 - Install script for easy setup

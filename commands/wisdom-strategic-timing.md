@@ -66,13 +66,6 @@ Synthesize the assessment:
 </process>
 
 <book-wisdom>
-**If book-indexer is available**, search for supporting quotes:
-```bash
-book-indexer search "[relevant concept]" --collection calibre-books --limit 3
-```
-
-**Fallback quotes if book search unavailable:**
-
 On timing:
 > "There is timing in everything. Timing in strategy cannot be mastered without a great deal of practice."
 > — Miyamoto Musashi

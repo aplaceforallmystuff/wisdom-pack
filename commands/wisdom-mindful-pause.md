@@ -71,13 +71,6 @@ After the pause:
 </process>
 
 <book-wisdom>
-**If book-indexer is available**, search for supporting quotes:
-```bash
-book-indexer search "[relevant concept]" --collection calibre-books --limit 3
-```
-
-**Fallback quotes if book search unavailable:**
-
 On the pause:
 > "The present moment is the only moment available to us, and it is the door to all moments."
 > — Thich Nhat Hanh

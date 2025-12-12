@@ -76,13 +76,6 @@ Examine the higher perspective:
 </process>
 
 <book-wisdom>
-**If book-indexer is available**, search for supporting quotes:
-```bash
-book-indexer search "[relevant concept]" --collection calibre-books --limit 3
-```
-
-**Fallback quotes if book search unavailable:**
-
 On mastery:
 > "If you know the Way broadly you will see it in everything."
 > — Miyamoto Musashi

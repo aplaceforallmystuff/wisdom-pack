@@ -56,13 +56,6 @@ Help identify actions they CAN take while accepting uncertainty about results.
 </process>
 
 <book-wisdom>
-**If book-indexer is available**, search for supporting quotes:
-```bash
-book-indexer search "[relevant concept]" --collection calibre-books --limit 3
-```
-
-**Fallback quotes if book search unavailable:**
-
 On the dichotomy:
 > "Make the best use of what is in your power, and take the rest as it happens."
 > — Epictetus

@@ -59,13 +59,6 @@ Having faced the worst:
 </process>
 
 <book-wisdom>
-**If book-indexer is available**, search for supporting quotes:
-```bash
-book-indexer search "[relevant concept]" --collection calibre-books --limit 3
-```
-
-**Fallback quotes if book search unavailable:**
-
 On preparation:
 > "What is quite unlooked for is more crushing in its effect, and unexpectedness adds to the weight of a disaster... The man who has anticipated the coming of troubles takes away their power when they arrive."
 > — Seneca

@@ -58,13 +58,6 @@ Convert perspective into action:
 </process>
 
 <book-wisdom>
-**If book-indexer is available**, search for supporting quotes:
-```bash
-book-indexer search "[relevant concept]" --collection calibre-books --limit 3
-```
-
-**Fallback quotes if book search unavailable:**
-
 On perspective:
 > "Think of yourself as dead. You have lived your life. Now take what's left and live it properly."
 > — Marcus Aurelius

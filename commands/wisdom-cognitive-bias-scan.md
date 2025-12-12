@@ -76,13 +76,6 @@ Provide specific ways to engage deliberate thinking:
 </process>
 
 <book-wisdom>
-**If book-indexer is available**, search for supporting research:
-```bash
-book-indexer search "[bias or concept]" --collection calibre-books --limit 3
-```
-
-**Fallback quotes if book search unavailable:**
-
 On System 1 vs System 2:
 > "A reliable way to make people believe in falsehoods is frequent repetition, because familiarity is not easily distinguished from truth."
 > — Daniel Kahneman, Thinking, Fast and Slow

@@ -82,13 +82,6 @@ After questioning, help synthesize what's been learned.
 </process>
 
 <book-wisdom>
-**If book-indexer is available**, search for supporting insights:
-```bash
-book-indexer search "[concept]" --collection calibre-books --limit 3
-```
-
-**Fallback quotes if book search unavailable:**
-
 On examination:
 > "The unexamined life is not worth living."
 > — Socrates

@@ -93,19 +93,11 @@ Use the core insights of the selected tradition:
 - Knowing the enemy and self
 - Economy of action
 
-## Step 4: Search for Grounded Wisdom
-**If book-indexer is available**, pull relevant quotes:
-```bash
-book-indexer search "[relevant concept]" --collection calibre-books --limit 3
-```
-
-## Step 5: Synthesize Practical Guidance
+## Step 4: Synthesize Practical Guidance
 Translate philosophical insight into actionable guidance for their specific situation.
 </process>
 
-<fallback-wisdom>
-**Fallback quotes if book search unavailable:**
-
+<wisdom-quotes>
 Stoicism:
 > "You have power over your mind - not outside events. Realize this, and you will find strength."
 > — Marcus Aurelius
@@ -125,7 +117,7 @@ Strategic:
 Socratic:
 > "The unexamined life is not worth living."
 > — Socrates
-</fallback-wisdom>
+</wisdom-quotes>
 
 <output-format>
 Structure your response as:
