@@ -19,51 +19,81 @@ cd wisdom-pack
 
 ## Available Commands
 
-### Phase 1 (Current)
+### Stoic Framework
 
 | Command | Purpose | Key Question |
 |---------|---------|--------------|
 | `/wisdom-stoic-dichotomy` | Separate what's in your control | "What here is up to me?" |
+| `/wisdom-stoic-premeditation` | Visualize worst case scenarios | "What if this fails completely?" |
+| `/wisdom-stoic-memento-mori` | Mortality perspective | "Would this matter on my deathbed?" |
+
+**Sources:** Epictetus, Marcus Aurelius, Seneca, Massimo Pigliucci
+
+### Cognitive Framework
+
+| Command | Purpose | Key Question |
+|---------|---------|--------------|
 | `/wisdom-cognitive-bias-scan` | Detect cognitive biases | "What biases might be operating?" |
-| `/wisdom-clarify` | Socratic questioning | "What do you really mean?" |
-| `/wisdom-ground` | Auto-select relevant framework | "Which tradition applies here?" |
 
-### Phase 2 (Planned)
+**Sources:** Daniel Kahneman, Malcolm Gladwell, Amos Tversky
 
-**Stoic:**
-- `/wisdom-stoic-premeditation` - Visualize worst case
-- `/wisdom-stoic-memento-mori` - Mortality perspective
-- `/wisdom-stoic-virtue` - Virtue ethics check
+### Mindfulness Framework
 
-**Mindfulness:**
-- `/wisdom-mindful-pause` - Create space before deciding
-- `/wisdom-mindful-attention` - Examine focus
-- `/wisdom-mindful-clarity` - Assess mental state
+| Command | Purpose | Key Question |
+|---------|---------|--------------|
+| `/wisdom-mindful-pause` | Create space before reacting | "What do I notice right now?" |
 
-**Strategic:**
-- `/wisdom-strategic-timing` - Assess readiness for action
-- `/wisdom-strategic-stance` - Evaluate positioning
-- `/wisdom-strategic-five-rings` - Apply Musashi's principles
+**Sources:** Thich Nhat Hanh, Viktor Frankl, Jon Kabat-Zinn
 
-## Sources
+### Strategic Framework
 
-Commands draw from indexed philosophy texts when available:
+| Command | Purpose | Key Question |
+|---------|---------|--------------|
+| `/wisdom-strategic-timing` | Assess readiness for action | "Is this the right time?" |
+| `/wisdom-strategic-five-rings` | Apply Musashi's five elements | "Which ring needs attention?" |
 
-**Stoicism:** Epictetus, Marcus Aurelius, Massimo Pigliucci
-**Cognitive Science:** Daniel Kahneman, Malcolm Gladwell
-**Mindfulness:** Thich Nhat Hanh, Sharon Salzberg, Ben Irvine
-**Strategic:** Miyamoto Musashi
-**Philosophy:** Simon Blackburn, Roger-Pol Droit, Alan Watts
+**Sources:** Miyamoto Musashi (Book of Five Rings)
+
+### Meta Commands
+
+| Command | Purpose |
+|---------|---------|
+| `/wisdom-clarify` | Socratic questioning - define terms, examine assumptions |
+| `/wisdom-ground` | Auto-select relevant framework for any situation |
+
+## Quick Reference
+
+| Situation | Command |
+|-----------|---------|
+| Anxious about outcomes | `/wisdom-stoic-dichotomy` |
+| Making a big decision | `/wisdom-cognitive-bias-scan` |
+| Feeling rushed/reactive | `/wisdom-mindful-pause` |
+| Need perspective | `/wisdom-stoic-memento-mori` |
+| Worried about failure | `/wisdom-stoic-premeditation` |
+| Timing a major move | `/wisdom-strategic-timing` |
+| Complex challenge | `/wisdom-strategic-five-rings` |
+| Unclear thinking | `/wisdom-clarify` |
+| Not sure which framework | `/wisdom-ground` |
 
 ## Book Collection Integration (Optional)
 
-If you have a ChromaDB book collection, commands can search for relevant quotes:
+If you have a ChromaDB book collection indexed with `book-indexer`, commands will search for relevant quotes:
 
 ```bash
 book-indexer search "dichotomy of control" --collection calibre-books --limit 3
 ```
 
 **Without ChromaDB:** Commands include fallback quotes from the core texts, so they work standalone.
+
+## Sources
+
+Commands draw from these indexed texts when available:
+
+- **Stoicism:** How to Be a Stoic (Pigliucci), Philosophy 101
+- **Cognitive Science:** Thinking, Fast and Slow (Kahneman), Blink (Gladwell)
+- **Mindfulness:** Mindfulness and the Big Questions (Irvine)
+- **Strategic:** The Book of Five Rings (Musashi)
+- **Philosophy:** Think (Blackburn), Astonish Yourself (Droit), Alan Watts
 
 ## Complementary to taches-cc-resources
 
