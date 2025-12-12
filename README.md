@@ -1,5 +1,7 @@
 # wisdom-pack
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Philosophy-grounded thinking frameworks for Claude Code.
 
 > *"Think better with 2,500 years of tested frameworks"*
@@ -105,6 +107,23 @@ This plugin complements (doesn't compete with) taches-cc-resources:
 | Generic application | Tradition-specific wisdom |
 | `/consider:first-principles` | `/wisdom-stoic-dichotomy` with Epictetus |
 | Framework-agnostic | Deep dives into specific traditions |
+
+## Related
+
+- [mcp-wisdom](https://github.com/aplaceforallmystuff/mcp-wisdom) - MCP server version for Claude Desktop
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a history of changes to this project.
+
+## Links
+
+- [GitHub repository](https://github.com/aplaceforallmystuff/wisdom-pack)
+- [Report issues](https://github.com/aplaceforallmystuff/wisdom-pack/issues)
 
 ## License
 
