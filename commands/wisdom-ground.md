@@ -37,14 +37,14 @@ The user has a decision, dilemma, or situation they want to think through philos
 - Needing to be present before deciding
 - Dealing with emotional reactivity
 - Seeking clarity in chaos
-- **Key command:** `/wisdom-mindful-pause` (Phase 2)
+- **Key command:** `/wisdom-mindful-pause`
 
 ### Use Strategic Framework When:
 - Planning competitive moves
 - Timing important actions
 - Positioning for advantage
 - Dealing with adversaries or challenges
-- **Key command:** `/wisdom-strategic-timing` (Phase 2)
+- **Key command:** `/wisdom-strategic-timing`
 
 ### Use Socratic Method When:
 - Terms are unclear

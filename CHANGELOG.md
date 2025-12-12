@@ -27,7 +27,7 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - 2025-12-12
 
 ### Added
-- Initial release with Phase 1 commands
+- Initial release with core commands
 - `/wisdom-stoic-dichotomy` - Epictetus's dichotomy of control
 - `/wisdom-cognitive-bias-scan` - Kahneman-based bias detection
 - `/wisdom-clarify` - Socratic questioning method
