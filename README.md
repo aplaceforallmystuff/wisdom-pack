@@ -91,10 +91,6 @@ Each command draws from primary philosophical sources:
 
 - [mcp-wisdom](https://github.com/aplaceforallmystuff/mcp-wisdom) - MCP server version for Claude Desktop
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for a history of changes to this project.
