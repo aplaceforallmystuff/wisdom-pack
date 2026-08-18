@@ -20,7 +20,7 @@ Unlike generic mental models, each command draws from specific thinkers and fram
 ```bash
 # In Claude Code:
 /plugin marketplace add aplaceforallmystuff/marketplace
-/plugin install wisdom-pack@jim-christian
+/plugin install wisdom-pack@aplaceforallmystuff
 ```
 
 <details>
