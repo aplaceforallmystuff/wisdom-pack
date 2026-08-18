@@ -1,25 +1,52 @@
-# wisdom-pack
+# Wisdom Pack
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+*Philosophy-grounded thinking frameworks for Claude Code.*
 
-Philosophy-grounded thinking frameworks for Claude Code.
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-6C5CE7)
+
+![Wisdom Pack](docs/images/architecture-diagram.png)
 
 > *"Think better with 2,500 years of tested frameworks"*
 
-## Overview
+wisdom-pack provides slash commands that connect to actual philosophical traditions with wisdom sourced from classic and modern texts.
 
-wisdom-pack provides slash commands that connect to actual philosophical traditions with wisdom sourced from classic and modern texts. Unlike generic mental models, each command draws from specific thinkers and frameworks.
+## Why
 
-## Installation
+Unlike generic mental models, each command draws from specific thinkers and frameworks.
+
+## Install
 
 ```bash
-# Clone and install
+# In Claude Code:
+/plugin marketplace add aplaceforallmystuff/marketplace
+/plugin install wisdom-pack@jim-christian
+```
+
+<details>
+<summary>Manual install (without the marketplace)</summary>
+
+```bash
 git clone https://github.com/aplaceforallmystuff/wisdom-pack.git
 cd wisdom-pack
 ./install.sh
 ```
+</details>
 
-## Available Commands
+## Use cases
+
+- Use it when you're anxious about an outcome and need to separate what you control from what you don't — `/wisdom-stoic-dichotomy`.
+- Use it when you're making a big decision and want to check your reasoning for cognitive biases — `/wisdom-cognitive-bias-scan`.
+- Use it when you feel rushed or reactive and need space before you respond — `/wisdom-mindful-pause`.
+- Use it when you're worried about failure and want to prepare mentally for the worst case — `/wisdom-stoic-premeditation`.
+- Use it when you're timing a major move and need to judge whether now is the right time — `/wisdom-strategic-timing`.
+- Use it when you're facing a complex challenge and aren't sure which framework fits — `/wisdom-ground`.
+
+## How it works
+
+Each command loads one philosophical framework and applies it to the situation you pass in. It runs a defined process from that tradition, quotes the relevant primary sources, and returns structured guidance. `/wisdom-ground` auto-selects the framework that best fits your situation; `/wisdom-clarify` runs Socratic questioning to define terms and examine assumptions.
+
+## Commands
 
 ### Stoic Framework
 
@@ -63,7 +90,7 @@ cd wisdom-pack
 | `/wisdom-clarify` | Socratic questioning - define terms, examine assumptions |
 | `/wisdom-ground` | Auto-select relevant framework for any situation |
 
-## Quick Reference
+### Quick Reference
 
 | Situation | Command |
 |-----------|---------|
@@ -76,6 +103,31 @@ cd wisdom-pack
 | Complex challenge | `/wisdom-strategic-five-rings` |
 | Unclear thinking | `/wisdom-clarify` |
 | Not sure which framework | `/wisdom-ground` |
+
+## Example
+
+Invoke a command with your situation as the argument:
+
+```
+/wisdom-stoic-dichotomy I'm anxious about whether a client will accept my proposal
+```
+
+Illustrative response:
+
+```
+Within Your Control:
+- The quality and clarity of the proposal
+- Following up professionally
+- Your response if they decline
+
+Outside Your Control:
+- The client's final decision → Instead, focus on: making the strongest case you can
+- Their budget and internal politics → Instead, focus on: what you offer regardless
+
+Stoic Guidance:
+Direct your energy to the proposal itself and your conduct. Treat the outcome
+as a preferred indifferent - work toward it, stay unattached to the result.
+```
 
 ## Sources
 
@@ -102,4 +154,4 @@ See [CHANGELOG.md](CHANGELOG.md) for a history of changes to this project.
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).

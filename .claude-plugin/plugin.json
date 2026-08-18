@@ -1,6 +1,21 @@
 {
   "name": "wisdom-pack",
+  "displayName": "Wisdom Pack",
   "description": "Philosophy-grounded thinking as slash commands: Stoic, Cognitive, Mindfulness, and Strategic wisdom.",
   "version": "1.0.0",
-  "author": { "name": "Jim Christian", "email": "hello@jimchristian.net" }
+  "author": {
+    "name": "Jim Christian",
+    "email": "hello@jimchristian.net",
+    "url": "https://jimchristian.net"
+  },
+  "homepage": "https://github.com/aplaceforallmystuff/wisdom-pack#readme",
+  "repository": "https://github.com/aplaceforallmystuff/wisdom-pack",
+  "license": "MIT",
+  "keywords": [
+    "stoicism",
+    "mental-models",
+    "reflection",
+    "commands",
+    "philosophy"
+  ]
 }
